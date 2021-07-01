@@ -1,0 +1,119 @@
+.home
+{
+	margin: 30px 0px 30px 0px;
+}
+.home h1
+{
+	font-size: 4vw;
+	color: var(--text);
+	text-align: center;
+}
+.home h1 b
+{
+	color: #DC143C;
+}
+.skills
+{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	margin-top: 50px;
+	margin-bottom: 50px;
+	grid-row-gap: 20px;
+}
+.skills li
+{
+	width: 95%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+.skills li svg
+{
+	height: 70px;
+	width: 70px;
+	font-size: 3rem;
+	color: white;
+	background: var(--secondary);
+	padding: 10px;
+	border-radius: 10px;	
+}
+.skills li p
+{
+	color: white;
+	font-size: 1.2rem;
+	font-weight: bold;
+	margin-top: 10px;
+}
+.skills li span
+{
+	color: white;
+	margin-top: 10px;
+}
+.lang-fwks
+{
+	margin-top: 50px auto;
+}
+.lang-title
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.lang-title p
+{
+	color: white;
+	font-size: 1.1rem;
+}
+.line
+{
+	width: calc(100vw - 90%);
+	height: 3px;
+	background: white;
+	margin: 0px 10px;
+}
+.lang-fwks ul
+{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	width: 40%;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	grid-row-gap: 20px;
+}
+.language
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.language img
+{
+	height: 50px;
+	width: 50px;
+}
+.language p
+{
+	margin-top: 5px;
+	color: white;
+	font-size: 1rem;
+}
+@media (min-width: 0px) and (max-width: 868px)
+{
+	.home h1
+	{
+		font-size: 7vw;
+	}
+	.skills
+	{
+		grid-template-columns: repeat(2, 1fr);
+		grid-column-gap: 10px;
+		transform: scale(0.9)
+	}
+	.lang-fwks ul
+	{
+		width: 90%;
+	}
+}

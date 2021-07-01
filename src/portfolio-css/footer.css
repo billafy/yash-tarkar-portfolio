@@ -1,0 +1,91 @@
+.footer
+{
+	margin-top: 100px;
+}
+.triangle
+{
+	height: 0px;
+	width: 0px;
+	border-left: 50vw solid transparent;
+	border-right: 50vw solid transparent;
+	border-bottom: 100px solid #1A1B1C;
+}
+.contact-info
+{
+	background: #1A1B1C;
+	padding: 30px 0px 30px 0px;
+	min-height: 425px;
+	max-height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.contact-info h1
+{
+	color: white;
+	font-size: 1.5rem;
+}
+.contact-info p
+{
+	color: white;
+	margin-top: 10px;
+}
+.contact-info input, .contact-info textarea
+{
+	height: 35px;
+	width: 250px;
+	background: transparent;
+	border: 1px solid var(--secondary);
+	padding: 0px 5px;
+	color: white;
+	font-size: 1rem;
+	box-shadow: 0px 0px 5px black;
+	margin-top: 10px;
+	transition: all 0.5s ease;
+}
+.contact-info input:focus, .contact-info textarea:focus
+{
+	box-shadow: 0px 0px 10px black;
+}
+.contact-info textarea
+{
+	height: 100px;
+	margin-bottom: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.blast-off
+{
+	animation: blastoff 1s ease-in-out;
+}
+.alert
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.copyright
+{
+	background: #1A1B1C;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	color: white;
+	border-top: 1px solid var(--secondary);
+}
+@keyframes blastoff
+{
+	0%
+	{
+		transform: scale(1);
+	}
+	25%
+	{
+		transform: scale(0.7);
+	}
+	100%
+	{
+		transform: translate(1000%, -1200%);
+	}
+}
