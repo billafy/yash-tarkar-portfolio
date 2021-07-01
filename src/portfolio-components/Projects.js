@@ -34,7 +34,7 @@ const projects = [
 		link:'https://restify.vercel.app/',
 		source:'https://github.com/billafy/restify',
 		image:restify,
-		description:'A REST API Client to test yours APIs on the go without any hassle.',
+		description:'A REST API Client to test your APIs on the go without any hassle.',
 		text:'Visit',
 	},
 	{

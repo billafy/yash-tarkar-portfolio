@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 
 import '../portfolio-css/footer.css';
 
-const url = process.env.REACT_APP_PORTFOLIO_CONTACT_ME;
+const url = process.env.REACT_APP_CONTACTME;
 
 const Footer = () => {
 	const [blastOff, setBlastOff] = useState('');
