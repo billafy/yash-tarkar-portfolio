@@ -24,3 +24,4 @@ yarn-error.log*
 
 /src/books-app
 /src/socket-example
+/src/send-images

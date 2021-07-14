@@ -55,19 +55,24 @@ const langFwks = [
 		title:'React',
 	},
 	{
+		id:10,
+		icon:'https://cdn.iconscout.com/icon/free/png-512/node-js-1174925.png',
+		title:'Node',
+	},
+	{
 		id:5,
-		icon:'https://img.icons8.com/color/48/000000/bootstrap.png',
-		title:'Bootstrap',
+		icon:'https://img.icons8.com/color/48/000000/mongodb.png',
+		title:'MongoDB',
+	},
+	{
+		id:7,
+		icon:'https://img.icons8.com/color/48/000000/graphql.png',
+		title:'GraphQL',
 	},
 	{
 		id:6,
 		icon:'https://img.icons8.com/color/48/000000/sass.png',
 		title:'Sass',
-	},
-	{
-		id:7,
-		icon:'https://cdn.iconscout.com/icon/free/png-256/jquery-7-1175152.png',
-		title:'jQuery',
 	},
 	{
 		id:8,
@@ -80,19 +85,14 @@ const langFwks = [
 		title:'Django',
 	},
 	{
-		id:10,
-		icon:'https://cdn.iconscout.com/icon/free/png-512/node-js-1174925.png',
-		title:'Node',
+		id:12,
+		icon:'https://img.icons8.com/fluent/48/000000/mysql-logo.png',
+		title:'MySQL',
 	},
 	{
 		id:11,
 		icon:'https://img.icons8.com/color/48/000000/c-plus-plus-logo.png',
 		title:'C/C++',
-	},
-	{
-		id:12,
-		icon:'https://img.icons8.com/fluent/48/000000/mysql-logo.png',
-		title:'MySQL',
 	},
 ];
 
