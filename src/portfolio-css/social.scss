@@ -1,0 +1,71 @@
+@import "./_mixins.scss";
+
+.social {
+	margin: 4rem 0px;
+	h1 {
+		color: var(--text);
+		text-align: center;
+		font-size: 1.8rem;
+	}
+	.social-links {
+		display: block;
+		width: 600px;
+		max-width: 85%;
+		margin: 30px auto 30px auto;
+		li {
+			@include flexV(row);
+			.social-icon {
+				@include flexB(row);
+				background: var(--background);
+				height: 80px;
+				width: 80px;
+				box-shadow: 0px 0px 3px var(--background);
+				transition: all 1s ease;
+				img {
+					height: 50px;
+					width: 50px;
+				}
+				&:hover {
+					background: var(--text);
+				}
+			}
+			.social-text {
+				@include flexB(row);
+				background: var(--background);
+				height: 80px;
+				width: calc(100% - 80px);
+				box-shadow: 0px 0px 3px var(--background);
+				a {
+					color: white;
+				}
+			}
+		}
+		.left {
+			flex-direction: row;
+		}
+		.right {
+			flex-direction: row-reverse;
+		}
+		.inactive-link {
+			transition: all 1s ease;
+			transform: scale(1);
+			background: var(--background);
+		}
+		.active-link {
+			transition: transform 1s ease;
+			transform: scale(1.1);
+			position: relative;
+			z-index: 1;
+			.social-icon {
+				background: var(--text);
+			}
+			a {
+				transition: all 0.5s ease;
+				font-weight: bold;
+				&:hover {
+					transform: scale(1.1);
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,94 @@
+@import "./_mixins.scss";
+
+.home {
+	margin: 3rem 0px;
+	h1 {
+		font-size: 4vw;
+		color: var(--text);
+		text-align: center;
+		b {
+			color: #dc143c;
+		}
+	}
+	.skills {
+		@include flexH(row);
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		margin: 5rem 1rem;
+		grid-row-gap: 2.5rem;
+		li {
+			@include flexV(column);
+			width: 90%;
+			text-align: center;
+			row-gap: 0.75rem;
+			svg {
+				height: 70px;
+				width: 70px;
+				font-size: 3rem;
+				color: white;
+				background: var(--secondary);
+				padding: 0.75rem;
+				border-radius: 10px;
+			}
+			p {
+				color: white;
+				font-size: 1.25rem;
+				font-weight: bold;
+			}
+			span {
+				font-size: 1rem;
+				color: white;
+			}
+		}
+	}
+	.lang-fwks {
+		margin: 4rem auto;
+		.lang-title {
+			@include flexB(row);
+			p {
+				color: white;
+				font-size: 1.25rem;
+			}
+			.line {
+				width: calc(100vw - 90%);
+				height: 3px;
+				background: white;
+				margin: 0px 0.75rem;
+			}
+		}
+		ul {
+			display: grid;
+			grid-template-columns: repeat(4, 1fr);
+			width: 40%;
+			margin: 3rem auto;
+			grid-row-gap: 20px;
+			.language {
+				@include flexB(column);
+				row-gap: 0.5rem;
+				img {
+					height: 50px;
+					width: 50px;
+				}
+				p {
+					color: white;
+					font-size: 1rem;
+				}
+			}
+		}
+	}
+	@media (min-width: 0px) and (max-width: 868px) {
+		h1 {
+			font-size: 7vw;
+		}
+		.skills {
+			grid-template-columns: repeat(2, 1fr);
+			grid-column-gap: 0.75rem;
+			transform: scale(0.9);
+		}
+		.lang-fwks {
+			ul {
+				width: 90%;
+			}
+		}
+	}
+}

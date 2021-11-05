@@ -7,7 +7,7 @@ import Social from './Social';
 import Navbar from './Navbar';
 import Footer from './Footer';
 
-import '../portfolio-css/portfolio.css';
+import '../portfolio-css/portfolio.scss';
 
 const Portfolio = () => {
 	const height = window.screen.availHeight - (window.outerHeight - window.innerHeight);
