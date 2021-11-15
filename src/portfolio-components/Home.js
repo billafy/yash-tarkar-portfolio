@@ -23,7 +23,7 @@ const Home = () => {
 			<div className="lang-fwks fade-in">
 				<div className="lang-title">
 					<div className="line"></div>
-					<p>Languages & Frameworks I know</p>
+					<p>Languages & Frameworks I Know</p>
 					<div className="line"></div>
 				</div>
 				<ul>
