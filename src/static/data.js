@@ -112,7 +112,7 @@ export const projects = [
 		title: "Wynx",
 		link: "https://wynx.netlify.app",
 		source: "https://github.com/billafy/chat-app",
-		image: "/images/wynx1.png",
+		image: "/images/wynx-app.png",
 		description:
 			"Wynx is a chat-based application built by the integration of React and Django Rest Framework.",
 		text: "Visit",
@@ -142,7 +142,7 @@ export const projects = [
 		title: "GC Furnishings",
 		link: "https://gcfurnishings.netlify.app",
 		source: "https://github.com/billafy/furniture-react",
-		image: "/images/gcfurnishings.png",
+		image: "/images/gcfurnishings-app.png",
 		description: "An E-commerce furniture website using React.",
 		text: "Visit",
 	},
@@ -151,7 +151,7 @@ export const projects = [
 		title: "Microsoft Calculator Clone",
 		link: "https://nbcalculator.netlify.app",
 		source: "https://github.com/billafy/calculator",
-		image: "/images/calculator.png",
+		image: "/images/calculator-app.png",
 		description:
 			"A clone of the Microsoft Windows 10 Calculator with proper functionality.",
 		text: "Visit",
