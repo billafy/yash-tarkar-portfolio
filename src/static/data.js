@@ -112,7 +112,7 @@ export const projects = [
 		title: "Wynx",
 		link: "https://wynx.netlify.app",
 		source: "https://github.com/billafy/chat-app",
-		image: "/images/wynx.png",
+		image: "/images/wynx1.png",
 		description:
 			"Wynx is a chat-based application built by the integration of React and Django Rest Framework.",
 		text: "Visit",
