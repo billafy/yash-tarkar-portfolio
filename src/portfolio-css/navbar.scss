@@ -4,10 +4,10 @@
 	@include flexB(row);
 	display: grid;
 	grid-template-columns: auto 1fr auto;
-	background: var(--primary);
+	// background: var(--primary);
 	height: 100px;
-	border-bottom: 1px solid var(--secondary);
-	box-shadow: 0px 0px 5px black;
+	// border-bottom: 1px solid var(--secondary);
+	// box-shadow: 0px 0px 5px black;
 	padding: 0px 1rem;
 	h1 {
 		font-size: 1.8rem;

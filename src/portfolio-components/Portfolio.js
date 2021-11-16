@@ -30,13 +30,16 @@ const Portfolio = () => {
 		<section className='container'>
 			<Router>
 				<Navbar width={width}/>
-				<div className='main-container' style={{minHeight:height-80, maxHeight:'auto'}}>
+				{/* <div className='main-container' style={{minHeight:height-80, maxHeight:'auto'}}>
 					<Switch>
 						<Route exact path='/' component={Home}/>
 						<Route exact path='/projects' component={Projects}/>
 						<Route exact path='/social' component={Social}/>
 					</Switch>
-				</div>
+				</div> */}
+				<Home/>
+				<Projects/>
+				<Social/>
 				<Footer/>
 			</Router>
 		</section>
