@@ -128,6 +128,14 @@ export const projects = [
 		text: "Visit",
 	},
 	{
+		id: 7,
+		title: 'Handwriting Generator',
+		link: 'https://handwriting-generator.vercel.app/',
+		image: '/images/handwriting-generator.png',
+		description: "A personalized tool which generates my own handwriting on a page.",
+		text: 'Visit',
+	},
+	{
 		id: 4,
 		title: "BillaBot",
 		link: "https://discord.com/api/oauth2/authorize?client_id=776675605340094484&permissions=36751424&scope=bot",
