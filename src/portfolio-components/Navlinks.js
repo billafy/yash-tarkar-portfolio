@@ -33,7 +33,7 @@ const Navlinks = ({
 						}
 						onClick={() => handleClick(link.to)}
 					>
-						<Link to={link.to}>{link.title}</Link>
+						<a href={`#${link.to}`}>{link.title}</a>
 					</li>
 				);
 			})}

@@ -4,7 +4,7 @@ import { projects } from "../static/data";
 
 const Projects = () => {
 	return (
-		<section className="projects">
+		<section className="projects" id='projects'>
 			<h1>Projects</h1>
 			<ul>
 				{projects.map((project, index) => {

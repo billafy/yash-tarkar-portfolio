@@ -102,7 +102,7 @@ export const projects = [
 		title: "Intern.ly",
 		link: "https://internly.vercel.app",
 		source: "https://github.com/billafy/intern-events-next",
-		image: "/images/internly.png",
+		image: "/images/internly-f.png",
 		description:
 			"An interactive social media for college students and companies for internship hiring.",
 		text: "Visit",
@@ -112,7 +112,7 @@ export const projects = [
 		title: "Wynx",
 		link: "https://wynx.netlify.app",
 		source: "https://github.com/billafy/chat-app",
-		image: "/images/wynx-app.png",
+		image: "/images/wynx-f.png",
 		description:
 			"Wynx is a chat-based application built by the integration of React and Django Rest Framework.",
 		text: "Visit",
@@ -122,7 +122,7 @@ export const projects = [
 		title: "RESTify",
 		link: "https://restify.vercel.app/",
 		source: "https://github.com/billafy/restify",
-		image: "/images/restify.png",
+		image: "/images/restify-f.png",
 		description:
 			"A REST API Client to test your APIs on the go without any hassle.",
 		text: "Visit",
@@ -142,7 +142,7 @@ export const projects = [
 		title: "GC Furnishings",
 		link: "https://gcfurnishings.netlify.app",
 		source: "https://github.com/billafy/furniture-react",
-		image: "/images/gcfurnishings-app.png",
+		image: "/images/gcfurnishings-f.png",
 		description: "An E-commerce furniture website using React.",
 		text: "Visit",
 	},
@@ -151,7 +151,7 @@ export const projects = [
 		title: "Microsoft Calculator Clone",
 		link: "https://nbcalculator.netlify.app",
 		source: "https://github.com/billafy/calculator",
-		image: "/images/calculator-app.png",
+		image: "/images/calculator-f.png",
 		description:
 			"A clone of the Microsoft Windows 10 Calculator with proper functionality.",
 		text: "Visit",
@@ -201,16 +201,16 @@ export const navLinks = [
 	{
 		id: 1,
 		title: "Home",
-		to: "/",
+		to: "",
 	},
 	{
 		id: 2,
 		title: "Projects",
-		to: "/projects",
+		to: "projects",
 	},
 	{
 		id: 3,
 		title: "Social",
-		to: "/social",
+		to: "social",
 	},
 ];

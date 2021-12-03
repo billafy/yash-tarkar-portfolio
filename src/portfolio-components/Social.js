@@ -11,7 +11,7 @@ const Social = () => {
 	};
 
 	return (
-		<section className="social">
+		<section className="social" id='social'>
 			<h1>Social</h1>
 			<ul className="social-links">
 				{socialLinks.map((link, index) => {
