@@ -131,6 +131,7 @@ export const projects = [
 		id: 7,
 		title: 'Handwriting Generator',
 		link: 'https://handwriting-generator.vercel.app/',
+		source: 'https://github.com/billafy/handwriting-generator',
 		image: '/images/handwriting-generator.png',
 		description: "A personalized tool which generates my own handwriting on a page.",
 		text: 'Visit',

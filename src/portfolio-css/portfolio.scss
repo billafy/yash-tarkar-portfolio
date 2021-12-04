@@ -38,6 +38,9 @@ body {
 	a {
 		text-decoration: none;
 	}
+	.container {
+		background-attachment: fixed;
+	}
 	.main-container {
 		position: relative;
 		z-index: 0;

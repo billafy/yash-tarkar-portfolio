@@ -27,7 +27,7 @@ const Portfolio = () => {
 	})
 
 	return (	
-		<section className='container'>
+		<section className='container' style={{background: `url(/background.jpg)`}}>
 			<Router>
 				<Navbar width={width}/>
 				<div className='main-container' style={{minHeight:height-80, maxHeight:'auto'}}>
