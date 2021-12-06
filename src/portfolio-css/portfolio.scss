@@ -44,27 +44,15 @@ body {
 		min-height: 600px;
 		max-height: auto;
 	}
-	.flying-object {
-		position: fixed;
-		height: 10px;
-		width: 10px;
-		background: var(--secondary);
-		border-radius: 50%;
-		transition: 0.75s all ease;
-		animation: radiate 1s linear infinite;
-	}
 	.slide-left {
 		animation: leftslide 2s ease-in-out;
 	}
-	@keyframes radiate {
+	@keyframes spin {
 		0% {
-			box-shadow: 0px 0px 5px var(--secondary);
-		}
-		50% {
-			box-shadow: 0px 0px 20px var(--secondary);
+			transform: rotateZ(0deg);
 		}
 		100% {
-			box-shadow: 0px 0px 5px var(--secondary);
+			transform: rotateZ(360deg);
 		}
 	}
 	@keyframes leftslide {
