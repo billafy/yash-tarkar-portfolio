@@ -105,7 +105,7 @@ const Footer = () => {
 				<p>
 					Handcrafted with{" "}
 					<span style={{ color: "red", fontSize: "1.2em" }}>❤</span>{" "}
-					by LamiFY &copy; 2021
+					by Yash &copy; 2021
 				</p>
 			</div>
 		</footer>

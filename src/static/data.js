@@ -98,7 +98,7 @@ export const langFwks = [
 
 export const projects = [
 	{
-		id: 7,
+		id: 6,
 		title: "Intern.ly",
 		link: "https://internly.vercel.app",
 		source: "https://github.com/billafy/intern-events-next",

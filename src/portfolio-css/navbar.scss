@@ -4,10 +4,10 @@
 	@include flexB(row);
 	display: grid;
 	grid-template-columns: auto 1fr auto;
-	background: var(--primary);
 	height: 100px;
-	border-bottom: 1px solid var(--secondary);
-	box-shadow: 0px 0px 5px black;
+	// background: var(--primary);
+	// border-bottom: 1px solid var(--secondary);
+	// box-shadow: 0px 0px 5px black;
 	padding: 0px 1rem;
 	h1 {
 		font-size: 1.8rem;
@@ -78,6 +78,9 @@
 		z-index: 2;
 		width: 100%;
 		padding: 0px 0.5rem 0px 0px;
+		background: var(--primary);
+		border-bottom: 1px solid var(--secondary);
+		box-shadow: 0px 0px 5px black;
 		ul {
 			display: none;
 		}
@@ -91,7 +94,9 @@
 		justify-self: right;
 	}
 	.hamburger {
-		display: block;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 		justify-self: center;
 		padding: 0px;
 	}
