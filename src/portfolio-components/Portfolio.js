@@ -9,10 +9,6 @@ import Footer from "./Footer";
 
 import "../portfolio-css/portfolio.scss";
 
-const randomInt = (min, max) => {
-	return Math.floor(Math.random() * (max - min)) + min;
-};
-
 const Portfolio = () => {
 	const [width, setWidth] = useState(window.innerWidth);
 
