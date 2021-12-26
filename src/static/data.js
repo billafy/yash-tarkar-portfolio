@@ -137,6 +137,15 @@ export const projects = [
 		text: 'Visit',
 	},
 	{
+		id: 8,
+		title: "PathXplorer",
+		link: "https://path-xplorer.vercel.app",
+		source: "https://github.com/billafy/graph-visualizer",
+		image: "images/path-finder.png",
+		description: "A visualizer to visualize path-finding algorithms such as BFS and A*. Generates mazes too.",
+		text: "Visit",
+	},
+	{
 		id: 4,
 		title: "BillaBot",
 		link: "https://discord.com/api/oauth2/authorize?client_id=776675605340094484&permissions=36751424&scope=bot",
