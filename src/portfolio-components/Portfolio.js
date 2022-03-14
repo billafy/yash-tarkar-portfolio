@@ -43,8 +43,11 @@ const Portfolio = () => {
 				event.clientX + Math.round(Math.random() * j - j / 2) + "px";
 			element.style.width = size;
 			element.style.height = size;
-			const color = window.getComputedStyle(event.target ,null).getPropertyValue('color');
-			element.style.background = color === 'rgb(0, 0, 0)' ? '#9B30FF' : color;
+			const color = window
+				.getComputedStyle(event.target, null)
+				.getPropertyValue("color");
+			element.style.background =
+				color === "rgb(0, 0, 0)" ? "#9B30FF" : color;
 			element.style.borderRadius = size;
 			element.style.pointerEvents = "none";
 			document.body.appendChild(element);
@@ -73,6 +76,7 @@ const Portfolio = () => {
 					</Switch>
 				</div>
 				<Footer />
+				{/* <img src='/images/yas.png' alt='Yash' className='yash'/> */}
 			</Router>
 		</section>
 	);
