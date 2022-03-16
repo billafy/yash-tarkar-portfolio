@@ -47,6 +47,12 @@ body {
 	.slide-left {
 		animation: leftslide 2s ease-in-out;
 	}
+	.yash {
+		height: 50vh;
+		position: fixed;
+		bottom: 0px;
+		z-index: 0;
+	}
 	@keyframes spin {
 		0% {
 			transform: rotateZ(0deg);
