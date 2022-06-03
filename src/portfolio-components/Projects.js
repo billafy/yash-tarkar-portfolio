@@ -27,13 +27,15 @@ const Projects = () => {
 							<div className="project-info">
 								<h3>{project.title}</h3>
 								<p>{project.description}</p>
-								<a
-									href={project.source}
-									target="_blank"
-									rel="noreferrer"
-								>
-									View Source
-								</a>
+								{project.source && (
+									<a
+										href={project.source}
+										target="_blank"
+										rel="noreferrer"
+									>
+										View Source
+									</a>
+								)}
 							</div>
 						</li>
 					);

@@ -108,6 +108,15 @@ export const projects = [
 		text: "Visit",
 	},
 	{
+		id: 9,
+		title: "Champion Brain",
+		link: "https://game-test-nu.vercel.app",
+		image: "/images/champion-brain.png",
+		description:
+			"A Web3-based cryptocurrency gambling number guessing game.",
+		text: "Visit",
+	},
+	{
 		id: 1,
 		title: "Wynx",
 		link: "https://wynx.netlify.app",
