@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../portfolio-css/social.scss";
+import {FiCopy} from 'react-icons/fi';
 import { socialLinks } from "../static/data";
 
 const Social = () => {
@@ -61,6 +62,7 @@ const Social = () => {
 									</a>
 								)}
 							</div>
+							{/* <FiCopy onClick={() => navigator.clipboard.writeText(link.link)}/> */}
 						</li>
 					);
 				})}

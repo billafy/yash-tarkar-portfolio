@@ -33,7 +33,7 @@ const Portfolio = () => {
 
 	const cursorEffect = (event) => {
 		[1, 0.9, 0.8, 0.5, 0.1].forEach(function (i) {
-			const j = (1 - i) * 50;
+			const j = (1 - i) * 1;
 			const element = document.createElement("div");
 			const size = Math.ceil(Math.random() * 10 * i) + "px";
 			element.style.position = "fixed";
@@ -76,7 +76,6 @@ const Portfolio = () => {
 					</Switch>
 				</div>
 				<Footer />
-				{/* <img src='/images/yas.png' alt='Yash' className='yash'/> */}
 			</Router>
 		</section>
 	);

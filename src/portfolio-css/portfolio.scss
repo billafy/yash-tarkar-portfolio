@@ -1,12 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
 
 * {
-	font-family: Dosis;
+	font-family: 'Montserrat', 'Segoe UI', sans-serif;
 	box-sizing: border-box;
 	--primary: rgb(37, 41, 52);
 	--secondary: #9b30ff;
 	--text: #ffffff;
 	--background: #1a1b1c;
+}
+html {
+	font-size: 14px;
+	scroll-behavior: smooth;
 }
 body {
 	font-size: 16px;
@@ -24,9 +28,19 @@ body {
 		padding: 0px;
 		margin: 0px;
 	}
+	p, span, pre, li {
+		line-height: 2rem;
+	}
 	ul {
 		list-style: none;
 		display: flex;
+	}
+	svg, img, input[type='button'], button {
+		cursor: pointer;
+		transition: transform 0.3s ease;
+		&:hover {
+			transform: scale(1.1);
+		}
 	}
 	button,
 	input,
@@ -81,16 +95,16 @@ body {
 		}
 	}
 	@media (min-width: 0px) and (max-width: 968px) {
-		font-size: 15px;
+		font-size: 13px;
 		.main-container {
 			padding-top: 105px;
 		}
 	}
 	@media (min-width: 468px) and (max-width: 967px) {
-		font-size: 14px;
+		font-size: 12px;
 	}
 	@media (min-width: 0px) and (max-width: 968px) {
-		font-size: 13px;
+		font-size: 11px;
 	}
 	.fade-in {
 		animation: fadein 1s ease-in-out;
