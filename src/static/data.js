@@ -8,21 +8,21 @@ export const skills = [
 		icon: <CgWebsite />,
 		title: "Web Development",
 		description:
-			"Able to develop full-stack web applications with fast, dynamic and interactive UI designs built on a sustainable back-end",
+			"Capable of creating full-stack web applications with fast, dynamic, and interactive user interfaces built on a scalable back-end",
 	},
 	{
 		id: 2,
 		icon: <BiCodeCurly />,
 		title: "Algorithmic Techniques",
 		description:
-			"Good command on various types of algorithms used to tackle complex problems",
+			"Excellent command of the various types of algorithms used to solve complex problems",
 	},
 	{
 		id: 3,
 		icon: <FaDatabase />,
 		title: "Database Management",
 		description:
-			"Able to convert real-world entities into a database model and manage it",
+			"Able to convert real-world entities into database models and manage them",
 	},
 	{
 		id: 4,
@@ -124,7 +124,7 @@ export const projects = [
 		source: "https://github.com/billafy/intern-events-next",
 		image: "/images/internly.png",
 		description:
-			"An interactive social media for college students and companies for internship hiring.",
+			"An interactive social media platform for college students and companies looking for interns.",
 		text: "Visit",
 	},
 	{
@@ -133,7 +133,7 @@ export const projects = [
 		link: "https://game-test-nu.vercel.app",
 		image: "/images/champion-brain.png",
 		description:
-			"A Web3-based cryptocurrency gambling number guessing game.",
+			"A cryptocurrency gambling number guessing game based on Web3.",
 		text: "Visit",
 	},
 	{
@@ -162,7 +162,7 @@ export const projects = [
 		link: 'https://handwriting-generator.vercel.app/',
 		source: 'https://github.com/billafy/handwriting-generator',
 		image: '/images/handwriting-generator.png',
-		description: "A personalized tool which generates my own handwriting on a page.",
+		description: "A personalized tool which generates my handwriting on a page.",
 		text: 'Visit',
 	},
 	{
@@ -171,7 +171,7 @@ export const projects = [
 		link: "https://path-xplorer.vercel.app",
 		source: "https://github.com/billafy/graph-visualizer",
 		image: "images/path-finder.png",
-		description: "A visualizer to visualize path-finding algorithms such as BFS and A*. Generates mazes too.",
+		description: "A path-finding algorithm visualizer, such as BFS and A*. It also generates mazes.",
 		text: "Visit",
 	},
 	{
@@ -181,7 +181,7 @@ export const projects = [
 		source: "https://github.com/billafy/BillaBot",
 		image: "/images/billabot.jpg",
 		description:
-			"Discord bot which can play music, send GIFs and can also talk with you.",
+			"Discord bot that can play music, send GIFs, and converse with you.",
 		text: "Invite",
 	},
 	{
@@ -190,7 +190,7 @@ export const projects = [
 		link: "https://gcfurnishings.netlify.app",
 		source: "https://github.com/billafy/furniture-react",
 		image: "/images/gcfurnishings-app.png",
-		description: "An E-commerce furniture website using React.",
+		description: "A React-based furniture e-commerce website.",
 		text: "Visit",
 	},
 	{
@@ -200,7 +200,7 @@ export const projects = [
 		source: "https://github.com/billafy/calculator",
 		image: "/images/calculator-app.png",
 		description:
-			"A clone of the Microsoft Windows 10 Calculator with proper functionality.",
+			"A fully functional clone of the Microsoft Windows 10 Calculator.",
 		text: "Visit",
 	},
 ];
