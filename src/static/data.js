@@ -128,12 +128,21 @@ export const projects = [
 		text: "Visit",
 	},
 	{
+		id: 10,
+		title: "Bukrent",
+		link: "https://bukrent.com",
+		image: "/images/bukrent.png",
+		description:
+			"An online book rental service based in Delhi NCR.",
+		text: "Visit",
+	},
+	{
 		id: 9,
 		title: "Champion Brain",
 		link: "https://game-test-nu.vercel.app",
 		image: "/images/champion-brain.png",
 		description:
-			"A cryptocurrency gambling number guessing game based on Web3.",
+			"A multiplayer number guessing game.",
 		text: "Visit",
 	},
 	{
