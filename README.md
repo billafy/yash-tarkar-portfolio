@@ -1,4 +1,4 @@
-# I am Yash Tarkar, this is the source code of my own portfolio.
+# My Portfolio
 
 https://yashtarkar.vercel.app
 
